@@ -6,6 +6,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -97,6 +101,31 @@ header {
   letter-spacing: 0.09em;
 }
 
+.buttom-comp-white {
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+.buttom-comp-white {
+  width: 160px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+
 #title-main {
   width: 500px;
   height: 202px;
@@ -150,4 +179,119 @@ header {
 .next a {
   display: flex;
   justify-content: end;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  padding: 130px 55px;
+  gap: 64px;
+}
+
+#about-left {
+  display: flex;
+  flex-direction: row;
+  height: 445px;
+  gap: 30px;
+}
+
+.about-right-top-title {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.about-right-top-title hr {
+  width: 60px;
+  height: 0;
+  border: 1px solid #303030;
+}
+.about-right-top-title h6 {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+#about-right h2 {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Raleway;
+  letter-spacing: 0.05em;
+  line-height: normal;
+  color: #303030;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.about-right-first {
+  height: 60px;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.about-right-second {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  color: #555555;
+  margin-bottom: 40px;
+}
+
+#services-and-prices {
+  background-image: url("../images/headerImage.jpg");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  padding-left: 57px;
+  padding-right: 55px;
+}
+
+#services-and-prices-title-info {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 20px;
+  align-items: center;
+  color: #9da4bd;
+  margin-top: 130px;
+}
+
+#services-and-prices-title-info hr {
+  width: 60px;
+  height: 0;
+  border: 1px solid #303030;
+}
+
+#services-and-prices-title-titlemain h2 {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: Raleway;
+  letter-spacing: 0.05em;
+  line-height: normal;
+  color: white;
+}
+
+#services-and-prices-prices {
+  display: flex;
+  flex-direction: row;
+}
+
+#services-and-prices-prices-left {
+  display: flex;
+  padding: 38px;
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+  width: 585px;
+}
+
+#services-and-prices-prices-left ul li div {
+  display: flex;
+  flex-direction: row;
+}
+
+#services-and-prices-prices-right {
+  padding: 38px;
 }
